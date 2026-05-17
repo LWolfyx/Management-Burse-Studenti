@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Gestiune Burse Studențești</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #0056b3;
+            text-align: center;
+        }
+
+        .section {
+            margin-bottom: 30px;
+            padding: 15px;
+            border: 1px solid #eee;
+            border-radius: 8px;
+        }
+
+        h3 {
+            margin-top: 0;
+            border-bottom: 2px solid #007bff;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        form {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        input,
+        select {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            flex: 1;
+            min-width: 150px;
+            font-family: inherit;
+            font-size: 14px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        button:hover {
+            background: #218838;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #e9ecef;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .controls a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+            margin: 0 5px;
+        }
+
+        .controls a:hover {
+            text-decoration: underline;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .btn-report {
+            color: #17a2b8;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn-edit {
+            color: #e0a800;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+
+        .btn-delete {
+            color: #dc3545;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+
+        .badge {
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+
+        .badge-merit {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .badge-studiu {
+            background: #cce5ff;
+            color: #004085;
+        }
+
+        .badge-fara {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .badge-asteptare {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .sort-section {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            white-space: nowrap;
+        }
+
+        .btn-clear {
+            background: #dc3545;
+            color: white;
+            padding: 10px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .btn-clear:hover {
+            background: #c82333;
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+        }
+
+        .btn-secondary:hover {
+            background: #5a6268;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>🎓 Management Burse Studenți</h1>
+
+        <div class="section">
+            <h3>Adaugă Student Nou</h3>
+            <form action="/add" method="POST">
+                <input type="text" name="nume" placeholder="Nume Complet" required>
+                <input type="text" name="facultate" placeholder="Facultate" required>
+                <input type="number" step="0.01" min="1" max="10" name="medie" placeholder="Medie (1.00 - 10.00)"
+                    required>
+                <button type="submit">Adaugă în Bază</button>
+            </form>
+        </div>
+
+        <div class="section">
+            <h3>🔍 Căutare, Filtrare și Sortare</h3>
+            <div class="controls">
+
+                <form action="/" method="GET" style="display:flex; flex: 2; gap: 5px; align-items:center;">
+                    <input type="text" name="search" placeholder="Caută după nume sau facultate..."
+                        value="{{ search_query }}">
+                    <input type="hidden" name="sort_by" value="{{ request.args.get('sort_by', 'nume') }}">
+                    <input type="hidden" name="bursa" value="{{ request.args.get('bursa', '') }}">
+                    <button type="submit" class="btn-secondary">Caută</button>
+                    {% if search_query %}
+                    <a href="/" class="btn-clear">✕</a>
+                    {% endif %}
+                </form>
+
+                <form action="/" method="GET" style="display:flex; gap: 5px; align-items:center;">
+                    <input type="hidden" name="search" value="{{ search_query }}">
+                    <input type="hidden" name="sort_by" value="{{ request.args.get('sort_by', 'nume') }}">
+                    <select name="bursa">
+                        <option value="">-- Toate Bursele --</option>
+                        <option value="Bursa de Merit" {% if request.args.get('bursa')=='Bursa de Merit' %}selected{%
+                            endif %}>🏆 Bursa de Merit</option>
+                        <option value="Bursa de Studiu" {% if request.args.get('bursa')=='Bursa de Studiu' %}selected{%
+                            endif %}>📚 Bursa de Studiu</option>
+                        <option value="Fara Bursa" {% if request.args.get('bursa')=='Fara Bursa' %}selected{% endif %}>❌
+                            Fără Bursă</option>
+                    </select>
+                    <button type="submit" class="btn-secondary">Filtrează</button>
+                </form>
+
+                <div class="sort-section">
+                    <span>Sortează:</span>
+                    <a href="/?sort_by=nume&search={{ search_query }}&bursa={{ request.args.get('bursa', '') }}">Nume
+                        ↑</a> |
+                    <a href="/?sort_by=medie&search={{ search_query }}&bursa={{ request.args.get('bursa', '') }}">Medie
+                        ↓</a> |
+                    <a href="/?sort_by=facultate&search={{ search_query }}&bursa={{ request.args.get('bursa', '') }}">Facultate
+                        ↑</a>
+                </div>
+
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nume</th>
+                    <th>Facultate</th>
+                    <th>Medie</th>
+                    <th>Status Bursă</th>
+                    <th>Acțiuni</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for s in studenti %}
+                <tr>
+                    <td>{{ s.nume }}</td>
+                    <td>{{ s.facultate }}</td>
+                    <td><strong>{{ s.medie }}</strong></td>
+                    <td>
+                        {% if s.status_bursa == 'Bursa de Merit' %}
+                        <span class="badge badge-merit">🏆 Bursa de Merit</span>
+                        {% elif s.status_bursa == 'Bursa de Studiu' %}
+                        <span class="badge badge-studiu">📚 Bursa de Studiu</span>
+                        {% elif s.status_bursa == 'Fara Bursa' %}
+                        <span class="badge badge-fara">❌ Fără Bursă</span>
+                        {% else %}
+                        <span class="badge badge-asteptare">⏳ În Așteptare</span>
+                        {% endif %}
+                    </td>
+                    <td>
+                        <a href="/report/{{ s.id }}" class="btn-report">📄 Raport</a>
+                        <a href="/edit/{{ s.id }}" class="btn-edit">✏️ Editează</a>
+                        <a href="/delete/{{ s.id }}" class="btn-delete"
+                            onclick="return confirm('Ștergi studentul {{ s.nume }}?')">🗑️ Șterge</a>
+                    </td>
+                </tr>
+                {% else %}
+                <tr>
+                    <td colspan="5" style="text-align:center; color:#888; padding: 20px;">
+                        Nu există studenți. Adaugă unul mai sus!
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

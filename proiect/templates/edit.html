@@ -1,0 +1,8 @@
+<h2>Editează Student</h2>
+<form method="POST">
+    <input type="text" name="nume" value="{{ student.nume }}" required>
+    <input type="text" name="facultate" value="{{ student.facultate }}" required>
+    <input type="number" step="0.01" name="medie" value="{{ student.medie }}" required>
+    <button type="submit">Salvează</button>
+</form>
+<a href="/">Înapoi</a>

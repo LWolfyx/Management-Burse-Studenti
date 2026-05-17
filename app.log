@@ -1,0 +1,183 @@
+2026-05-14 18:09:53,067 - INFO - Baza de date a fost inițializată cu succes.
+2026-05-14 18:09:53,069 - INFO - Aplicația Flask pornește...
+2026-05-14 18:09:53,096 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-14 18:09:53,097 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-14 18:09:53,099 - INFO -  * Restarting with stat
+2026-05-14 18:09:53,837 - INFO - Baza de date a fost inițializată cu succes.
+2026-05-14 18:09:53,839 - INFO - Aplicația Flask pornește...
+2026-05-14 18:09:53,854 - WARNING -  * Debugger is active!
+2026-05-14 18:09:53,859 - INFO -  * Debugger PIN: 714-543-436
+2026-05-14 18:10:06,134 - INFO - 127.0.0.1 - - [14/May/2026 18:10:06] "GET / HTTP/1.1" 200 -
+2026-05-14 18:10:09,098 - WARNING - Student șters: stefan we (ID: 1)
+2026-05-14 18:10:09,099 - INFO - 127.0.0.1 - - [14/May/2026 18:10:09] "[32mGET /delete/1 HTTP/1.1[0m" 302 -
+2026-05-14 18:10:09,104 - INFO - 127.0.0.1 - - [14/May/2026 18:10:09] "GET / HTTP/1.1" 200 -
+2026-05-14 18:27:11,813 - INFO - Baza de date a fost inițializată cu succes.
+2026-05-14 18:27:11,815 - INFO - Aplicația Flask pornește...
+2026-05-14 18:27:11,845 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-14 18:27:11,846 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-14 18:27:11,848 - INFO -  * Restarting with stat
+2026-05-14 18:27:12,604 - INFO - Baza de date a fost inițializată cu succes.
+2026-05-14 18:27:12,606 - INFO - Aplicația Flask pornește...
+2026-05-14 18:27:12,623 - WARNING -  * Debugger is active!
+2026-05-14 18:27:12,628 - INFO -  * Debugger PIN: 714-543-436
+2026-05-14 18:27:13,827 - INFO - 127.0.0.1 - - [14/May/2026 18:27:13] "GET / HTTP/1.1" 200 -
+2026-05-14 18:27:37,476 - INFO - Student adăugat: 121, Medie: -0.01
+2026-05-14 18:27:37,477 - INFO - 127.0.0.1 - - [14/May/2026 18:27:37] "[32mPOST /add HTTP/1.1[0m" 302 -
+2026-05-14 18:27:37,481 - INFO - 127.0.0.1 - - [14/May/2026 18:27:37] "GET / HTTP/1.1" 200 -
+2026-05-14 18:27:47,119 - WARNING - Student șters: 121 (ID: 1)
+2026-05-14 18:27:47,119 - INFO - 127.0.0.1 - - [14/May/2026 18:27:47] "[32mGET /delete/1 HTTP/1.1[0m" 302 -
+2026-05-14 18:27:47,124 - INFO - 127.0.0.1 - - [14/May/2026 18:27:47] "GET / HTTP/1.1" 200 -
+2026-05-14 18:31:26,959 - INFO - Baza de date a fost inițializată cu succes.
+2026-05-14 18:31:26,961 - INFO - Aplicația Flask pornește...
+2026-05-14 18:31:26,985 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-14 18:31:26,986 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-14 18:31:26,987 - INFO -  * Restarting with stat
+2026-05-14 18:31:27,611 - INFO - Baza de date a fost inițializată cu succes.
+2026-05-14 18:31:27,613 - INFO - Aplicația Flask pornește...
+2026-05-14 18:31:27,627 - WARNING -  * Debugger is active!
+2026-05-14 18:31:27,631 - INFO -  * Debugger PIN: 714-543-436
+2026-05-14 18:31:29,965 - INFO - 127.0.0.1 - - [14/May/2026 18:31:29] "GET / HTTP/1.1" 200 -
+2026-05-14 18:31:35,273 - WARNING - Tentativă eșuată: Numele '121' nu este valid.
+2026-05-14 18:31:35,274 - INFO - 127.0.0.1 - - [14/May/2026 18:31:35] "[31m[1mPOST /add HTTP/1.1[0m" 400 -
+2026-05-14 18:36:48,603 - INFO - Baza de date a fost inițializată cu succes.
+2026-05-14 18:36:48,605 - INFO - Aplicația Flask pornește...
+2026-05-14 18:36:48,630 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-14 18:36:48,631 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-14 18:36:48,632 - INFO -  * Restarting with stat
+2026-05-14 18:36:49,235 - INFO - Baza de date a fost inițializată cu succes.
+2026-05-14 18:36:49,237 - INFO - Aplicația Flask pornește...
+2026-05-14 18:36:49,251 - WARNING -  * Debugger is active!
+2026-05-14 18:36:49,256 - INFO -  * Debugger PIN: 714-543-436
+2026-05-14 18:36:51,403 - INFO - 127.0.0.1 - - [14/May/2026 18:36:51] "GET / HTTP/1.1" 200 -
+2026-05-14 18:37:01,074 - INFO - Student validat și adăugat: Stefan, Facultate: Info, Medie: 9.0
+2026-05-14 18:37:01,075 - INFO - 127.0.0.1 - - [14/May/2026 18:37:01] "[32mPOST /add HTTP/1.1[0m" 302 -
+2026-05-14 18:37:01,079 - INFO - 127.0.0.1 - - [14/May/2026 18:37:01] "GET / HTTP/1.1" 200 -
+2026-05-14 18:37:03,733 - INFO - Căutare efectuată pentru: 'Stefan'
+2026-05-14 18:37:03,736 - INFO - 127.0.0.1 - - [14/May/2026 18:37:03] "GET /?search=Stefan HTTP/1.1" 200 -
+2026-05-14 18:37:13,702 - INFO - Student validat și adăugat: Andrei, Facultate: Info, Medie: 10.0
+2026-05-14 18:37:13,703 - INFO - 127.0.0.1 - - [14/May/2026 18:37:13] "[32mPOST /add HTTP/1.1[0m" 302 -
+2026-05-14 18:37:13,707 - INFO - 127.0.0.1 - - [14/May/2026 18:37:13] "GET / HTTP/1.1" 200 -
+2026-05-14 18:37:17,503 - INFO - Căutare efectuată pentru: 'Stefan'
+2026-05-14 18:37:17,505 - INFO - 127.0.0.1 - - [14/May/2026 18:37:17] "GET /?search=Stefan HTTP/1.1" 200 -
+2026-05-14 18:37:23,432 - INFO - Căutare efectuată pentru: 'Info'
+2026-05-14 18:37:23,434 - INFO - 127.0.0.1 - - [14/May/2026 18:37:23] "GET /?search=Info HTTP/1.1" 200 -
+2026-05-14 18:37:25,603 - INFO - Student șters: Andrei (ID: 2)
+2026-05-14 18:37:25,604 - INFO - 127.0.0.1 - - [14/May/2026 18:37:25] "[32mGET /delete/2 HTTP/1.1[0m" 302 -
+2026-05-14 18:37:25,609 - INFO - 127.0.0.1 - - [14/May/2026 18:37:25] "GET / HTTP/1.1" 200 -
+2026-05-14 18:37:27,223 - INFO - Student șters: Stefan (ID: 1)
+2026-05-14 18:37:27,224 - INFO - 127.0.0.1 - - [14/May/2026 18:37:27] "[32mGET /delete/1 HTTP/1.1[0m" 302 -
+2026-05-14 18:37:27,228 - INFO - 127.0.0.1 - - [14/May/2026 18:37:27] "GET / HTTP/1.1" 200 -
+2026-05-14 22:12:32,852 - INFO - Baza de date a fost inițializată cu succes.
+2026-05-14 22:12:32,857 - INFO - Aplicația Flask pornește...
+2026-05-14 22:12:32,909 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-14 22:12:32,910 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-14 22:12:32,915 - INFO -  * Restarting with stat
+2026-05-14 22:12:33,911 - INFO - Baza de date a fost inițializată cu succes.
+2026-05-14 22:12:33,914 - INFO - Aplicația Flask pornește...
+2026-05-14 22:12:33,935 - WARNING -  * Debugger is active!
+2026-05-14 22:12:33,943 - INFO -  * Debugger PIN: 714-543-436
+2026-05-14 22:12:38,442 - INFO - 127.0.0.1 - - [14/May/2026 22:12:38] "GET / HTTP/1.1" 200 -
+2026-05-14 22:12:55,606 - INFO - Student validat și adăugat: Gabriel, Facultate: ASE, Medie: 10.0
+2026-05-14 22:12:55,607 - INFO - 127.0.0.1 - - [14/May/2026 22:12:55] "[32mPOST /add HTTP/1.1[0m" 302 -
+2026-05-14 22:12:55,615 - INFO - 127.0.0.1 - - [14/May/2026 22:12:55] "GET / HTTP/1.1" 200 -
+2026-05-14 22:13:19,467 - INFO - Student validat și adăugat: Paul, Facultate: Chimie, Medie: 6.0
+2026-05-14 22:13:19,468 - INFO - 127.0.0.1 - - [14/May/2026 22:13:19] "[32mPOST /add HTTP/1.1[0m" 302 -
+2026-05-14 22:13:19,474 - INFO - 127.0.0.1 - - [14/May/2026 22:13:19] "GET / HTTP/1.1" 200 -
+2026-05-14 22:13:23,458 - INFO - 127.0.0.1 - - [14/May/2026 22:13:23] "GET /?sort_by=nume&search= HTTP/1.1" 200 -
+2026-05-14 22:13:25,055 - INFO - 127.0.0.1 - - [14/May/2026 22:13:25] "GET /?sort_by=medie&search= HTTP/1.1" 200 -
+2026-05-14 22:13:26,470 - INFO - 127.0.0.1 - - [14/May/2026 22:13:26] "GET /?sort_by=medie&search= HTTP/1.1" 200 -
+2026-05-14 22:13:36,343 - INFO - Căutare efectuată pentru: 'Paul'
+2026-05-14 22:13:36,346 - INFO - 127.0.0.1 - - [14/May/2026 22:13:36] "GET /?search=Paul HTTP/1.1" 200 -
+2026-05-14 22:13:38,369 - INFO - 127.0.0.1 - - [14/May/2026 22:13:38] "GET / HTTP/1.1" 200 -
+2026-05-14 22:13:39,328 - INFO - Generare raport pentru: Gabriel
+2026-05-14 22:13:39,329 - INFO - Raport generat pentru Gabriel
+2026-05-14 22:13:39,330 - INFO - 127.0.0.1 - - [14/May/2026 22:13:39] "GET /report/1 HTTP/1.1" 200 -
+2026-05-14 22:13:44,725 - INFO - 127.0.0.1 - - [14/May/2026 22:13:44] "GET / HTTP/1.1" 200 -
+2026-05-14 22:13:46,029 - INFO - Generare raport pentru: Paul
+2026-05-14 22:13:46,029 - INFO - Raport generat pentru Paul
+2026-05-14 22:13:46,030 - INFO - 127.0.0.1 - - [14/May/2026 22:13:46] "GET /report/2 HTTP/1.1" 200 -
+2026-05-14 22:13:49,259 - INFO - 127.0.0.1 - - [14/May/2026 22:13:49] "GET / HTTP/1.1" 200 -
+2026-05-14 22:13:51,626 - INFO - Student șters: Gabriel (ID: 1)
+2026-05-14 22:13:51,627 - INFO - 127.0.0.1 - - [14/May/2026 22:13:51] "[32mGET /delete/1 HTTP/1.1[0m" 302 -
+2026-05-14 22:13:51,634 - INFO - 127.0.0.1 - - [14/May/2026 22:13:51] "GET / HTTP/1.1" 200 -
+2026-05-14 22:13:53,254 - INFO - Student șters: Paul (ID: 2)
+2026-05-14 22:13:53,255 - INFO - 127.0.0.1 - - [14/May/2026 22:13:53] "[32mGET /delete/2 HTTP/1.1[0m" 302 -
+2026-05-14 22:13:53,266 - INFO - 127.0.0.1 - - [14/May/2026 22:13:53] "GET / HTTP/1.1" 200 -
+2026-05-16 22:55:56,134 - INFO - Baza de date a fost inițializată cu succes.
+2026-05-16 22:55:56,137 - INFO - Aplicația Flask pornește...
+2026-05-16 22:55:56,226 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-16 22:55:56,227 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-16 22:55:56,233 - INFO -  * Restarting with stat
+2026-05-16 22:55:56,910 - INFO - Baza de date a fost inițializată cu succes.
+2026-05-16 22:55:56,912 - INFO - Aplicația Flask pornește...
+2026-05-16 22:55:56,928 - WARNING -  * Debugger is active!
+2026-05-16 22:55:56,935 - INFO -  * Debugger PIN: 985-358-280
+2026-05-16 22:55:58,824 - INFO - 127.0.0.1 - - [16/May/2026 22:55:58] "GET / HTTP/1.1" 200 -
+2026-05-16 22:56:09,224 - ERROR - Tentativă eșuată: Numele '123' nu este valid.
+2026-05-16 22:56:09,225 - INFO - 127.0.0.1 - - [16/May/2026 22:56:09] "[31m[1mPOST /add HTTP/1.1[0m" 400 -
+2026-05-16 22:58:16,914 - INFO - Student validat și adăugat: Alex, Facultate: ASE, Medie: 9.0
+2026-05-16 22:58:16,915 - INFO - 127.0.0.1 - - [16/May/2026 22:58:16] "[32mPOST /add HTTP/1.1[0m" 302 -
+2026-05-16 22:58:16,920 - INFO - 127.0.0.1 - - [16/May/2026 22:58:16] "GET / HTTP/1.1" 200 -
+2026-05-16 22:58:18,404 - INFO - Generare raport pentru: Alex
+2026-05-16 22:58:18,404 - INFO - Raport generat pentru Alex
+2026-05-16 22:58:18,405 - INFO - 127.0.0.1 - - [16/May/2026 22:58:18] "GET /report/1 HTTP/1.1" 200 -
+2026-05-16 22:58:19,618 - INFO - 127.0.0.1 - - [16/May/2026 22:58:19] "GET / HTTP/1.1" 200 -
+2026-05-16 22:58:21,254 - INFO - Student șters: Alex (ID: 1)
+2026-05-16 22:58:21,255 - INFO - 127.0.0.1 - - [16/May/2026 22:58:21] "[32mGET /delete/1 HTTP/1.1[0m" 302 -
+2026-05-16 22:58:21,259 - INFO - 127.0.0.1 - - [16/May/2026 22:58:21] "GET / HTTP/1.1" 200 -
+2026-05-17 16:37:13,519 - INFO - Baza de date a fost inițializată cu succes.
+2026-05-17 16:37:13,522 - INFO - Aplicația Flask pornește...
+2026-05-17 16:37:13,547 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-17 16:37:13,548 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-17 16:37:13,550 - INFO -  * Restarting with stat
+2026-05-17 16:37:14,182 - INFO - Baza de date a fost inițializată cu succes.
+2026-05-17 16:37:14,185 - INFO - Aplicația Flask pornește...
+2026-05-17 16:37:14,200 - WARNING -  * Debugger is active!
+2026-05-17 16:37:14,206 - INFO -  * Debugger PIN: 985-358-280
+2026-05-17 16:37:17,189 - INFO - 127.0.0.1 - - [17/May/2026 16:37:17] "GET / HTTP/1.1" 200 -
+2026-05-17 16:39:19,294 - INFO - Baza de date a fost inițializată cu succes.
+2026-05-17 16:39:19,296 - INFO - Aplicația Flask pornește...
+2026-05-17 16:39:19,320 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-17 16:39:19,320 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-17 16:39:19,322 - INFO -  * Restarting with stat
+2026-05-17 16:39:19,922 - INFO - Baza de date a fost inițializată cu succes.
+2026-05-17 16:39:19,924 - INFO - Aplicația Flask pornește...
+2026-05-17 16:39:19,937 - WARNING -  * Debugger is active!
+2026-05-17 16:39:19,941 - INFO -  * Debugger PIN: 985-358-280
+2026-05-17 16:39:21,268 - INFO - 127.0.0.1 - - [17/May/2026 16:39:21] "GET / HTTP/1.1" 200 -
+2026-05-17 16:39:58,924 - ERROR - Tentativă eșuată: Numele '234' nu este valid.
+2026-05-17 16:39:58,924 - INFO - 127.0.0.1 - - [17/May/2026 16:39:58] "[31m[1mPOST /add HTTP/1.1[0m" 400 -
+2026-05-17 16:40:09,369 - INFO - Student adăugat: Gabriel, Facultate: ASE, Medie: 10.0
+2026-05-17 16:40:09,370 - INFO - 127.0.0.1 - - [17/May/2026 16:40:09] "[32mPOST /add HTTP/1.1[0m" 302 -
+2026-05-17 16:40:09,376 - INFO - 127.0.0.1 - - [17/May/2026 16:40:09] "GET / HTTP/1.1" 200 -
+2026-05-17 16:40:16,097 - INFO - 127.0.0.1 - - [17/May/2026 16:40:16] "[35m[1mGET /edit/1 HTTP/1.1[0m" 500 -
+2026-05-17 16:40:16,176 - INFO - 127.0.0.1 - - [17/May/2026 16:40:16] "GET /edit/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-05-17 16:40:16,179 - INFO - 127.0.0.1 - - [17/May/2026 16:40:16] "GET /edit/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-05-17 16:40:16,209 - INFO - 127.0.0.1 - - [17/May/2026 16:40:16] "GET /edit/1?__debugger__=yes&cmd=resource&f=console.png&s=VNEPGihGcwddD05JVWkY HTTP/1.1" 200 -
+2026-05-17 16:40:16,217 - INFO - 127.0.0.1 - - [17/May/2026 16:40:16] "GET /edit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-05-17 16:41:15,317 - INFO - Baza de date a fost inițializată cu succes.
+2026-05-17 16:41:15,319 - INFO - Aplicația Flask pornește...
+2026-05-17 16:41:15,343 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-17 16:41:15,344 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-17 16:41:15,346 - INFO -  * Restarting with stat
+2026-05-17 16:41:15,937 - INFO - Baza de date a fost inițializată cu succes.
+2026-05-17 16:41:15,939 - INFO - Aplicația Flask pornește...
+2026-05-17 16:41:15,952 - WARNING -  * Debugger is active!
+2026-05-17 16:41:15,956 - INFO -  * Debugger PIN: 985-358-280
+2026-05-17 16:41:17,309 - INFO - 127.0.0.1 - - [17/May/2026 16:41:17] "GET / HTTP/1.1" 200 -
+2026-05-17 16:41:19,533 - INFO - 127.0.0.1 - - [17/May/2026 16:41:19] "GET /edit/1 HTTP/1.1" 200 -
+2026-05-17 16:41:23,915 - INFO - Student editat: Gabriel (ID: 1)
+2026-05-17 16:41:23,916 - INFO - 127.0.0.1 - - [17/May/2026 16:41:23] "[32mPOST /edit/1 HTTP/1.1[0m" 302 -
+2026-05-17 16:41:23,920 - INFO - 127.0.0.1 - - [17/May/2026 16:41:23] "GET / HTTP/1.1" 200 -
+2026-05-17 16:41:32,993 - INFO - Student șters: Gabriel (ID: 1)
+2026-05-17 16:41:32,994 - INFO - 127.0.0.1 - - [17/May/2026 16:41:32] "[32mGET /delete/1 HTTP/1.1[0m" 302 -
+2026-05-17 16:41:32,998 - INFO - 127.0.0.1 - - [17/May/2026 16:41:32] "GET / HTTP/1.1" 200 -
