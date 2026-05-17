@@ -59,13 +59,6 @@ proiect/
 
 ---
 
-proiect/
-├── app.py
-├── models.py
-├── utils.py
-└── templates/
-    ├── index.html
-    └── edit.html
 
 Instalare și rulare
 1. Instalează dependințele
